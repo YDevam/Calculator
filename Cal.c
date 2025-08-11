@@ -34,7 +34,7 @@ int cal(int n)
 int main()
 {
     int j;
-    for (int i = 0; i < 1000; i++)
+    for (int i = 0; i > -1; i++)
     {
         // printf("Enter value ");
         printf("\nPress 1 for Addition");
