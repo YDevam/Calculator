@@ -44,14 +44,18 @@ int main()
         printf("\nPress 5 for Modulus");
         printf("\nPress 0 for Exit \n");
         scanf("%d", &j);
-        if (j > 0)
+        if (j == 0)
+        {
+            break;
+        }
+        else if (j > 0 && j < 6)
         {
             cal(j);
             j == 0;
         }
         else
         {
-            break;
+            printf("Enter the above given number");
         }
     }
 }
