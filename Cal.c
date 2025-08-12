@@ -36,7 +36,6 @@ int main()
     int j;
     for (int i = 0; i > -1; i++)
     {
-        // printf("Enter value ");
         printf("\nPress 1 for Addition");
         printf("\nPress 2 for Subtraction");
         printf("\nPress 3 for Multiplication");
